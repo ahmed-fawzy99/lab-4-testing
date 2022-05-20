@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!---------------------------------------->
+
+<body>
+
+ <section>
+
+	<hgroup>
+		<h1>Ahmed Fawzy Amer Deghady - 17P6035 - Lab 4</h1>
+	</hgroup>
+
+	<div class = "container">
+
+	    <div class="group decor">
+	    	<input type="text" id = "first_no" name = "first_no" placeholder = "First Number">
+	    </div>
+
+	 
+		<div class = "choice">
+			<input type="radio" id="addition" value="+" name="operation">
+			<label for="addition">+</label><br>
+
+			<input type="radio" id="subtraction" value="-" name="operation">
+			<label for="subtraction">-</label><br>
+
+			<input type="radio" id="division" value="/" name="operation">
+			<label for="division">/</label><br>
+
+			<input type="radio" id="multiply" value="*" name="operation">
+			<label for="multiply">*</label><br>
+			
+
+		</div>
+
+	    <div class="group decor">
+	        <input type="text" id = "second_no" name = "second_no"  placeholder = "Second Number">
+	    </div>
+
+	    <br><br>
+
+		<div class="compute">
+          <button onclick="compute()">Compute</button>
+        </div>
+
+		<p>Result is: </br> </p>
+		<p id="result">test</p>
+
+	</div>
+
+	
+
+</section>
+
+
+<script src="script.js"></script></body>
+</body>
+
+</html>
+
+
