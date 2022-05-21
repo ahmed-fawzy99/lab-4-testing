@@ -44,8 +44,9 @@ async function test(){
     first_no.clear();
     second_no.clear();
     
+    /*
     //TC4: <16.4, -, 14.6, 1.8> 
-    // Test Case 3
+    // Test Case 4 - Should fail
     first_no.sendKeys("16.4");
     radio_choice = driver.findElement(By.id("subtraction")); // Multiplication Operation
     radio_choice.click();
@@ -53,7 +54,7 @@ async function test(){
     driver.findElement(By.id("compute_btn")).sendKeys(Key.RETURN); // Click - because .click() somehow stopped working
     promise = await driver.findElement(By.id("result")).getText();
     assert.equal("50", promise);
-
+    */
      
 }
 
